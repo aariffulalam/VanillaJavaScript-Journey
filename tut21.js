@@ -15,9 +15,12 @@ let div = document.createElement("div");
 div.className = "exercie2";
 div.id = "exercise2";
 div.innerHTML = "this is heading of exercse2";
-div.addEventListener("mouseenter", function () {
+
+container.appendChild(div)
+
+
+div.addEventListener("click", function () {
     let inp = prompt()
     localStorage.setItem("input", inp)
     div.replaceWith(inp)
 })
-container.appendChild(div)
