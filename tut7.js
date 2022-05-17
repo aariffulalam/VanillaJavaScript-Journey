@@ -85,7 +85,7 @@ console.log(a)
 
 
 // ***     these all methods are changing the original array we  are not returning
-// ***     in const defined array we can update our array with using of method.
+// ***     in const defined array we can not update our array with using these type of method.
 
 
 

@@ -45,3 +45,9 @@ class library {
 // lib = new library(["god", "life", "aarif"])
 // console.log(lib.getBookList())
 // console.log(lib)
+
+// var a = 8
+// function f() {
+//     a = 10
+// }
+// console.log(a)

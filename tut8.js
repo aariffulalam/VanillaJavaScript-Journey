@@ -38,8 +38,9 @@ if (varry !== "undefined") {
 
 // (?) Ternary Operator
 
+age == 67 ? console.log("age 67") : age == 47 ? console.log("age is 47") : console.log("age 30")
 console.log(age == 67 ? "age is 67" : age == 47 ? "age is 47" : "age is 30")
-
+// both are same
 
 
 

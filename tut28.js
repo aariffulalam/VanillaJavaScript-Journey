@@ -54,7 +54,7 @@ console.log(Obj2.getName())
 Introduction to JavaScript prototype: -
     As we know that all objects in JavaScript are instances of Object.A typical object inherits properties from Object.prototype.The Object.prototype object has many built -in methods and properties such as toString(), valueOf(), etc.All objects see the object prototype object changes through prototype chaining unless the properties and methods subject to those changes are overridden further along the prototype chain.This is a very dangerous mechanism to override or extend object behavior.
 
-JavaScript is a prototype - based language.Whenever we create a function using JavaScript, the JavaScript engine adds a prototype property inside a function. The prototype property is an object where we can attach methods and properties in a prototype object, which enables all the other objects to inherit these methods and properties.
+JavaScript is a prototype-based language.Whenever we create a function using JavaScript, the JavaScript engine adds a prototype property inside a function. The prototype property is an object where we can attach methods and properties in a prototype object, which enables all the other objects to inherit these methods and properties.
 */
 function MyDetails(name, job, yearOfBirth) {
     this.name = name;
@@ -103,4 +103,3 @@ std.toString();
 /*
 In the above code, the JavaScript engine checks whether the toString() method is attached to std or not. If it does not find there, it uses std _proto__ link, which points to the prototype object of Student function. If it still cannot find it there, then it goes up in the hierarchy and check the prototype object of Object function because all the objects are derived from Object in JavaScript, and look for the toString() method. Thus, it finds the toString() method in the prototype object of Object function and so we can call std.toString(). 
 */
-

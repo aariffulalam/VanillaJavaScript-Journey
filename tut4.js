@@ -21,11 +21,13 @@ function filename() {
 
 }
 console.log(typeof filename)
+// this will us function
 
 
 
 let date = new Date()
+console.log(date)
+// this will give us time with date and also that of which reagon it is 
 
 console.log(typeof date)
-
-// this will give us date name
+// this will give us object datatype

@@ -16,7 +16,7 @@ console.log(element)
 
 let cl = element.className;
 console.log(cl)
-// this will give all classes which given to this div and also we can change or updete element 
+// this will give all classes which given to this div and also we can change or updete element
 
 let pr = element.parentNode;
 console.log(pr)
@@ -85,7 +85,7 @@ Array.from(elems).forEach(function (element) {
     element.style.color = "blue"
 })
 
-// this how we can iterate. but remember first we need to convert it into Array 
+// // this how we can iterate. but remember first we need to convert it into Array 
 
 
 

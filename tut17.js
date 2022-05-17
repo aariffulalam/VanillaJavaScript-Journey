@@ -15,14 +15,14 @@ document.getElementById("heading").addEventListener("click", function (e) {
     console.log("you have clicked the heading.")
     // this will print in console of website 
 
-    // location.href = "https://www.instagram.com/aariffulalam/"
+    // location.href = "https://www.github.com/aariffulalam/"
     // from function we can also redireact to other websites
 
     // e -> EventObject
     // this will  give us Event's all properties in object
     console.log(e);
 
-    let variable = e.target;     // target is property  og e object
+    let variable = e.target;     // target is property  of e object
     // this target gives us an element 
     console.log(variable);
 
@@ -37,10 +37,17 @@ document.getElementById("heading").addEventListener("click", function (e) {
     // now in this we can use foreach() method.
 
     variable = e.offsetX;
+    console.log(variable)
     variable = e.offsetY;
-    // these both will us the position that where we clicked in x-axis or y-axis. these mesaure the distace from your event where you clicked 
+    console.log(variable)
+
+    // these both will give us the position that where we clicked in x-axis or y-axis. these mesaure the distace from your event where you clicked 
 
     variable = e.clientX;
+    console.log(variable)
+
     variable = e.clientY;
-    // these will give the distance from whole webpage.
+    console.log(variable)
+
+    // // these will give the distance from whole webpage.
 })

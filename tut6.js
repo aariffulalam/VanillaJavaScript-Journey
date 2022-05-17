@@ -37,7 +37,6 @@ console.log(str.includes("pp"));
 
 
 
-
 // substring()
 // this will give us srting in a range witch we will provide
 console.log(str.substring(1, 10))

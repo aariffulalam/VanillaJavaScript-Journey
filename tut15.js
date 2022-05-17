@@ -7,21 +7,23 @@ console.log(con);
 
 let cont = document.querySelector('.container');
 console.log(cont.childNodes);
-// in this childNodes it will count in length all element included next line as well as comment also which you did in DOM 
+// in this childNodes it will count in length all element included next line as well as comment also which you did in DOM
 
 // if you do not wants to listed text, newline , comment in doctype in cont then use children not childNodes 
 
 console.log(cont.children)
-// this will coun only elements form this container div     
+// this will coun only elements form this container div
 
-let nodeName = cont.childNodes[0].nodeName
+let Node = cont.childNodes[0]
+console.log(Node)
+
+let NodeName = cont.childNodes[0].nodeName
 // this will give node name of 
-console.log(nodeName)
-
+console.log(NodeName)
 
 
 let nodetype = cont.childNodes[0].nodeType
-// this will node type number
+// this will give node type number
 console.log(nodetype)
 
 // Node type 
@@ -36,7 +38,7 @@ console.log(nodetype)
 
 
 // traverse
-let container = document.querySelector('div.container')  //.container also be fine
+let container = document.querySelector('div.container')  // ".container also be fine"
 console.log(container.children[1].children[0].children)  //
 
 
@@ -47,7 +49,7 @@ console.log(container.lastElementChild);
 
 console.log(container.children);
 console.log(container.childElementCount)
-// counts of children elements 
+// counts of children elements
 
 
 

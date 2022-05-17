@@ -10,10 +10,10 @@ function greet(name, thank = "thank you") {
 
 
 
-let name = "aarif";
-let thank = " thank you so much";
+const name = "aarif";
+const thank = " thank you so much";
 
-let val = greet(name, thank);
+const val = greet(name, thank);
 console.log(val)
 
 
@@ -63,7 +63,7 @@ if (1) {
     console.log(i)
 }
 
-console.log(i);     // outer of function value is not defined to fixed this we need to take var for to assine value of i
+// console.log(i);     // outer of function value is not defined to fixed this we need to take var for to assine value of i
 
 function ul(name) {
     let i = 9;
@@ -71,4 +71,4 @@ function ul(name) {
     return `This ${name} ul`
 }
 
-console.log(ul("Sanju"), i)
+// console.log(ul("Sanju"), i)   // i is not defined

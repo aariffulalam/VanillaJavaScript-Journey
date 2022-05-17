@@ -21,6 +21,6 @@ container.appendChild(div)
 
 div.addEventListener("click", function () {
     let inp = prompt()
-    localStorage.setItem("input", inp)
+    localStorage.setItem("Exrecise2_input", inp)
     div.replaceWith(inp)
 })

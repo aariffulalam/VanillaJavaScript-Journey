@@ -32,11 +32,11 @@ console.log(Array.from(a))
 
 
 let htmlArr = Array.from(a)
-// console.log(htmlArr[5])
+console.log(htmlArr[5])
 // this is converting this into an Array and also extract items using indexing
 
 htmlArr.forEach(function (element) {
-    // console.log(element)
+    console.log(element)
 })
 
 // in this loop is working

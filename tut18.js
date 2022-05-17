@@ -2,14 +2,14 @@ console.log("this is tutorial 18");
 
 
 // let btn = document.getElementById("btn");
-//this is for single click event
+// //this is for single click event
 // btn.addEventListener("click", funct1);
-// this is for double click event
-// btn.addEventListener("dblcick", funct2);
+// // this is for double click event
+// btn.addEventListener("dblclick", funct2);
 
 
 // function funct1(e) {
-//     console.log("thanks single click is working")
+//     console.log("thanks single click is working", e)
 //     // console.log(e)
 
 //     // if in DOM in Input type we will give submit then it will redirec us to file which we gave in action
@@ -24,7 +24,8 @@ console.log("this is tutorial 18");
 
 
 // function funct2(e) {
-//     console.log("thanks double click is working")
+//     console.log("thanks double click is working", e)
+//     e.preventDefault();
 // }
 
 
@@ -33,7 +34,7 @@ console.log("this is tutorial 18");
 /*
 mouseenter
 mouseleave
-mousemove 
+mousemove
 mouseover
 mouseout
 */
@@ -48,3 +49,4 @@ document.querySelector('.container').addEventListener('mousemove', function (e) 
 })
 
 // console.log(document.querySelector('.container'))
+
